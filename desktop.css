@@ -1,0 +1,22 @@
+@media screen and (min-width: 481px){
+
+    .head {
+        background-color: #4169e1;
+    }
+
+    .main {
+        background-color: #f5fffa;
+    }
+
+    .menu {
+        background-color: #f5fffa;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        text-align: right;
+    }
+}
