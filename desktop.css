@@ -1,6 +1,6 @@
 @media screen and (min-width: 481px){
 
-    .head {
+    header {
         background-color: #4169e1;
     }
 
@@ -9,6 +9,14 @@
     }
 
     .menu {
+        background-color: #f5fffa;
+    }
+
+    .footer {
+        background-color: #f5fffa;
+    }
+
+    body {
         background-color: #f5fffa;
     }
 
