@@ -5,13 +5,26 @@
         border: 0.5px solid black;
     }
 
+    *, ::before, ::after {
+        box-sizing: inherit;
+    }
+
     html, body {
         line-height: 1.5;
         margin: 0;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-sizing: border-box;
+    }
+
+    html {
+        overflow-x: hidden;
+        box-sizing: border-box;
     }
 
     body {
         background-color: #f5fffa;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     h1 {
@@ -22,34 +35,54 @@
         text-align: right;
     }
 
+    a {
+        color: inherit;
+        background-color: transparent;
+    }
+
     /* menu bar */
 
     .menu-bar {
-        height: 52px;
         width: 100%;
-        background-color: #4169e1;
+        overflow: hidden;
     }
 
     .menu {
-        box-sizing: border-box;
-        display: block;
         float: left;
-        line-height: 36px;
-        font-size: 24px;
         padding: 8px 16px;
-        
-        /*background-color: #f5fffa;*/
+        background-color: #f5fffa;
+        white-space: normal;
+        width: auto;
+        border: none;
+        outline: none;
+    }
+
+    .border-bottom {
+        border-bottom: 1px solid #f5fffa;
+    }
+
+    .xlarge {
+        font-size: 24px !important;
     }
 
     .bar-item {
-        padding: 0px 16px;
+        padding: 8px 16px;
         text-decoration: none;
-        color: #f5fffa;
+        color: #4169e1;
     }
 
-    .edge-bar-item {
-        text-decoration: none;
-        color: #f5fffa;
+    .text-white .hover-text-white:hover {
+        color: #f5fffa !important;
+    }
+
+    .text-blue {
+        color: #4169e1;
+        background-color: #f5fffa;
+    }
+    
+    .hover-blue:hover {
+        color: #f5fffa !important;
+        background-color: #4169e1 !important;
     }
 
     /* header */
@@ -70,8 +103,39 @@
     }
 
     /* content */
+    .container::before {
+        box-sizing: inherit;
+        display: table;
+        clear: both;
+    }
+
+    .container::after {
+        box-sizing: inherit;
+        display: table;
+        clear: both;
+    }
+
+    .container {
+        padding: 0.01em 16px;
+    }
+
     .content {
         width: 100%;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .row-padding{
+        padding: 0 8px;
+    }
+
+    .margin-bottom {
+        margin-bottom: 16px !important;
+    }
+
+    .half {
+        width: 49.99999%;
+        float: left;
     }
 
     /* footer */
