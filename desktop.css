@@ -27,12 +27,9 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    h1 {
-        text-align: center;
-    }
-
-    p {
-        text-align: right;
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 400;
+        margin: 10px 0;
     }
 
     a {
@@ -42,14 +39,8 @@
 
     /* menu bar */
 
-    .menu-bar {
-        width: 100%;
-        overflow: hidden;
-    }
-
     .menu {
-        float: left;
-        padding: 8px 16px;
+        overflow: hidden;
         background-color: #f5fffa;
         white-space: normal;
         width: auto;
@@ -88,14 +79,23 @@
     /* header */
     header {
         background-color: #f5fffa;
-        width: 100%;
+        width: 1500px;
         max-height: 700px;
+        margin: auto;
+        /*position: relative;*/
     }
 
     .image {
+        max-width: 100%;
+        
+    }
+
+    img {
+        vertical-align: middle;
         width: 1500px;
         height: 700px;
-        max-width: 100%;
+        border-style: none;
+        overflow: hidden;
     }
 
     .display-middle {
@@ -103,20 +103,11 @@
     }
 
     /* content */
-    .container::before {
-        box-sizing: inherit;
-        display: table;
-        clear: both;
-    }
-
-    .container::after {
-        box-sizing: inherit;
-        display: table;
-        clear: both;
-    }
 
     .container {
         padding: 0.01em 16px;
+        display: table;
+        clear: both;
     }
 
     .content {
@@ -124,6 +115,8 @@
         max-width: 1100px;
         margin: auto;
     }
+
+    /* explore nature */
 
     .row-padding{
         padding: 0 8px;
@@ -133,9 +126,19 @@
         margin-bottom: 16px !important;
     }
 
+    .margin-top {
+        margin-top: 16px !important;
+    }
+
     .half {
         width: 49.99999%;
         float: left;
+    }
+
+    /* contact */
+
+    h2 {
+        font-size: 30px;
     }
 
     /* footer */
