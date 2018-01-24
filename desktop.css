@@ -40,7 +40,6 @@
     /* menu bar */
 
     .menu {
-        overflow: hidden;
         background-color: #f5fffa;
         white-space: normal;
         width: auto;
@@ -57,9 +56,13 @@
     }
 
     .bar-item {
+        overflow: hidden;
         padding: 8px 16px;
         text-decoration: none;
         color: #4169e1;
+        text-align: center;
+        display: block;
+        float: left;
     }
 
     .text-white .hover-text-white:hover {
@@ -79,15 +82,16 @@
     /* header */
     header {
         background-color: #f5fffa;
-        width: 1500px;
-        max-height: 700px;
+        max-width: 1500px;
         margin: auto;
+        display: block;
         /*position: relative;*/
     }
 
     .image {
         max-width: 100%;
-        
+        height: auto;
+        max-height: 700px;
     }
 
     img {
@@ -99,7 +103,7 @@
     }
 
     .display-middle {
-        visibility: hidden;
+        visibility: collapse;
     }
 
     /* content */
