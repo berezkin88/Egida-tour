@@ -37,7 +37,7 @@
         background-color: transparent;
     }
 
-    .opacity {
+    .opacity, .hover-opacity:hover{
         opacity: 0.60;
     }
     
@@ -167,4 +167,11 @@
         padding-top: 16px !important;
         padding-bottom: 16px !important;
     }
+
+    .smedia {
+        width: 24px;
+        height: 24px;
+    }
+
+
 }
