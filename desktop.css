@@ -1,11 +1,11 @@
 @media screen and (min-width: 481px){
 
     /* common options */
-    * {
+    /** {
         border: 0.5px solid black;
-    }
+    }*/
 
-    *, ::before, ::after {
+    *, *:before, *:after {
         box-sizing: inherit;
     }
 
@@ -14,11 +14,11 @@
         margin: 0;
         font-size: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        box-sizing: border-box;
+
     }
 
     html {
-        overflow-x: hidden;
+
         box-sizing: border-box;
     }
 
@@ -40,6 +40,11 @@
     .opacity, .hover-opacity:hover{
         opacity: 0.60;
     }
+
+    img {
+        vertical-align: middle;
+        border-style: none;
+    }
     
     /* menu bar */
 
@@ -51,8 +56,14 @@
         outline: none;
     }
 
+    .menu::after, .menu::before {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
     .border-bottom {
-        border-bottom: 1px solid #f5fffa;
+        border-bottom: 1px solid #f5fffa !important;
     }
 
     .xlarge {
@@ -66,6 +77,10 @@
         color: #4169e1;
         text-align: center;
         display: block;
+        float: right;
+    }
+
+    .left {
         float: left;
     }
 
@@ -96,19 +111,13 @@
         max-width: 100%;
         height: auto;
         max-height: 700px;
-    }
-
-    img {
-        vertical-align: middle;
         width: 1500px;
         height: 700px;
-        border-style: none;
-        overflow: hidden;
     }
 
-    .display-middle {
+    /*.display-middle {
         visibility: collapse;
-    }
+    }*/
 
     /* content */
 
@@ -141,6 +150,11 @@
     .half {
         width: 49.99999%;
         float: left;
+    }
+
+    .nature {
+        max-width: 525px;
+        max-height: 250px;
     }
 
     /* contact */
