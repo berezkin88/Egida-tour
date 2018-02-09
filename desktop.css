@@ -119,6 +119,24 @@
         visibility: collapse;
     }*/
 
+    /* divider for about, passports and countries*/
+
+    .divider {
+        background-color: hsl(150, 83%, 5%);
+        max-width: 1500px;
+        margin: auto;
+        display: inline;
+
+    }
+
+    .small {
+        max-height: 125px;
+        max-width: 250px;
+        width: 100%;
+        float: left;
+        height: auto;
+    }
+
     /* content */
 
     .container {
@@ -155,6 +173,7 @@
     .nature {
         max-width: 525px;
         max-height: 250px;
+        width: 100%;
     }
 
     /* contact */
