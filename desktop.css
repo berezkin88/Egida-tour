@@ -54,6 +54,7 @@
         width: auto;
         border: none;
         outline: none;
+        /*width: 1500px;*/
     }
 
     .menu::after, .menu::before {
@@ -122,19 +123,17 @@
     /* divider for about, passports and countries*/
 
     .divider {
+        width: 1500px;
         background-color: hsl(150, 83%, 5%);
         max-width: 1500px;
         margin: auto;
-        display: inline;
-
+        display: block;
     }
 
     .small {
         max-height: 125px;
         max-width: 250px;
         width: 100%;
-        float: left;
-        height: auto;
     }
 
     /* content */
@@ -206,5 +205,10 @@
         height: 24px;
     }
 
+    /* for about, passports, countries*/
 
+    .middle {
+        width: 525px;
+        height: 400px;
+    }
 }
