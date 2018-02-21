@@ -1,0 +1,199 @@
+@media screen and (max-width: 360px){
+    
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
+    html, body {
+        line-height: 1.5;
+        margin: 0;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #010A1E;
+        background-color: #f5fffa;
+        box-sizing: border-box;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 400;
+        margin: 10px 0;
+    }
+
+    a {
+        color: inherit;
+        background-color: transparent;
+    }
+
+    .opacity, .hover-opacity:hover{
+        opacity: 0.60;
+    }
+
+    img {
+        vertical-align: middle;
+        border-style: none;
+    }
+
+        /* menu bar */
+
+        .menu {
+            background-color: #f5fffa;
+            white-space: normal;
+            border: none;
+            outline: none;
+            width: 100%;
+        }
+    
+        .widespread {
+            max-width: 1500px !important;
+        }
+    
+        .menu::after, .menu::before {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    
+        .border-bottom {
+            border-bottom: 1px solid #f5fffa !important;
+        }
+    
+        .xlarge {
+            font-size: 24px !important;
+        }
+    
+        .bar-item {
+            overflow: hidden;
+            padding: 8px 16px;
+            text-decoration: none;
+            color: cadetblue;
+            text-align: center;
+            display: block;
+            float: right;
+            font-family: Trebuchet, Lucida, Lucida, Lucida, Arial, sans-serif
+        }
+    
+        .left {
+            float: left;
+        }
+    
+        .text-white .hover-text-white:hover {
+            color: #f5fffa !important;
+        }
+    
+        .text-blue {
+            color: cadetblue;
+            background-color: #f5fffa;
+        }
+        
+        .hover-blue:hover {
+            color: #f5fffa !important;
+            background-color: cadetblue !important;
+        }
+
+        /* header */
+
+        .hide-small {
+            display: none !important;
+        }
+
+            /* divider for about, passports and countries*/
+
+    .divider {
+        height: 125px;
+        background-color: cadetblue;
+        margin: auto;
+        display: block;
+        background: linear-gradient(to bottom, cadetblue, #f5fffa);
+    }
+
+    .small {
+        max-height: 125px;
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .test {
+        overflow: hidden;
+    }
+
+        /* content */
+
+        .container {
+            padding: 0.01em 16px;
+            display: table;
+            clear: both;
+        }
+    
+        .content {
+            width: 100%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+            /* explore nature */
+
+    .row-padding{
+        padding: 0 8px;
+    }
+
+    .margin-bottom {
+        margin-bottom: 16px !important;
+    }
+
+    .margin-top {
+        margin-top: 16px !important;
+    }
+
+    .half {
+        float: left;
+    }
+
+    .nature {
+        max-width: 525px;
+        max-height: 250px;
+        width: 100%;
+    }
+
+        /* contact */
+
+        h2 {
+            font-size: 30px;
+        }
+
+            /* contact */
+
+    h2 {
+        font-size: 30px;
+    }
+
+    /* footer */
+    footer {
+        background-color: #f5fffa;
+        display: block !important;
+    }
+
+    .center {
+        text-align: center !important;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .padding-16 {
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
+    }
+
+    .smedia {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* for about, passports, countries*/
+
+    .middle {
+        width: 525px;
+        height: 400px;
+    }
+}
