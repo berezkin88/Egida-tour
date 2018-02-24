@@ -1,5 +1,5 @@
-@media screen and (max-width: 360px){
-    
+@media screen and (min-width: 360px) and (max-width: 480px){
+
 /* common settings */
 
 *, *:before, *:after {
@@ -76,7 +76,6 @@ img {
     
 .left {
     float: left;
-    
 }
     
 .text-white .hover-text-white:hover {
@@ -84,7 +83,7 @@ img {
 }
     
 .text-blue {
-    color: #5f9ea0;
+    color: cadetblue;
     background-color: #f5fffa;
 }
 
@@ -92,7 +91,7 @@ img {
     color: #f5fffa !important;
     background-color: cadetblue !important;
 }
-
+    
 .item-width {
     width: 138px;
     text-align: right !important;
@@ -138,6 +137,7 @@ img {
     display: block;
     background: linear-gradient(to bottom, cadetblue, #f5fffa);
 }
+
 .small {
     max-height: 125px;
     max-width: 250px;
@@ -196,7 +196,7 @@ h2 {
     font-size: 30px;
 }
 
-/* contact */
+    /* contact */
 
 h2 {
     font-size: 30px;
