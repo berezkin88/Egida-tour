@@ -13,6 +13,8 @@
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 481px)" href="desktop.css" />
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 359px)" href="portrait.css">
     <link rel="stylesheet" type="text/css" media="screen and (min-width: 360px) and (max-width: 480px)" href="landscape.css">
+
+    <script src="Scripts.js"></script>
 </head>
 
 <body>
@@ -23,8 +25,10 @@
                 <b>Эгида-тур</b>
             </a>
             <div class="dropdown">
-                <img src="menu-button-of-three-horizontal-lines.svg" class="hide-big bar-item icon" />
-                <div class="dropdown-content">
+                <button onclick="myFunction()" class="hide-big bar-item text-blue hover-blue">
+                    <img src="menu-button-of-three-horizontal-lines.svg" class="icon" />
+                </button>
+                <div class="dropdown-content" id="myDropdown">
                     <a href="about.html" class="bar-item text-white hover-blue item-width">О нас</a>
                     <a href="passport.html" class="bar-item text-white hover-blue item-width">Паспорта</a>
                 </div>

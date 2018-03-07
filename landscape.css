@@ -98,11 +98,18 @@ img {
 }
 
 .icon {
-    width: 52px;
-    height: 52px;
+    width: 36px;
+    height: 36px;
 }
 
 /* dropdown */
+
+button {
+    border: none !important;
+    width: 52px;
+    height: 52px;
+    padding: 0 !important;
+}
 
 .dropdown {
     position: relative;
@@ -118,7 +125,7 @@ img {
     right: 0;
 }
 
-.dropdown:hover .dropdown-content {
+.show {
     display: inline-block;
 }
 
