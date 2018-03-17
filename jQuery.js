@@ -6,7 +6,7 @@ $(document).ready(function(){
     });
     } else {
         $(".icon").on("touchstart", function(){
-            $(".dropdown-content").show(100);
+            $(".dropdown-content").toggle(500);
         });
     }
 
