@@ -101,6 +101,7 @@ img {
 .icon {
     width: 20px;
     height: 34px;
+    background: url("menu-button-of-three-horizontal-lines.svg") no-repeat;
 }
 
 /* .icon:hover {
