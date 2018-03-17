@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
     $(".icon").hover(function(){
-        $(".dropdown-content").toggle().show(5);
+        $(".dropdown-content").show(100);
     });
 
     $(this).on("click", function(){
-        $(".dropdown-content").toggle().hide();
+        $(".dropdown-content").hide();
     });
 });
