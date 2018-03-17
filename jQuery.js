@@ -8,7 +8,7 @@ $(document).ready(function () {
 
 
     $(this).on("click", function () {
-        $(".icon").attr("src","menu-button-of-three-horizontal-lines.svg");
+        $(".icon").attr("src","menu-dark.png");
         $(".dropdown-content").hide();
     });
 });

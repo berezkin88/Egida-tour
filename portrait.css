@@ -99,27 +99,15 @@ img {
 }
 
 .icon {
-    width: 20px;
-    height: 34px;
-    background: url("menu-button-of-three-horizontal-lines.svg") no-repeat;
+    width: 32px;
+    height: 32px;
 }
 
-/* .icon:hover {
-    background: url("menu-light.png") no-repeat;
-} */
+.hide-big {
+    padding: 8px 8px !important;
+}
 
 /* dropdown */
-
-/* button {
-    border: none !important;
-    width: 52px;
-    height: 52px;
-    padding: 0 !important;
-} */
-
-/* .dropdown {
-    position: relative;
-} */
 
 .dropdown-content {
     display: none;
