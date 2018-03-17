@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     $("#hover").hover(function(){
-        $(".dropdown-content").show(300);
+        $(".dropdown-content").show();
     });
 
 
