@@ -120,16 +120,13 @@
         margin: auto;
         display: block;
         background: linear-gradient(to bottom, cadetblue, #f5fffa);
+        max-width: 1500px;
     }
 
     .small {
         max-height: 125px;
-        max-width: 250px;
-        width: 100%;
-    }
-
-    .test {
-        overflow: hidden;
+        max-width: 100%;
+        height: auto;
     }
 
     /* content */
