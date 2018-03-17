@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $(".icon").hover(function(){
+    $(".hide-big").hover(function(){
         $(".dropdown-content").show(100);
     });
 
