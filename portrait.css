@@ -99,22 +99,26 @@ img {
 }
 
 .icon {
-    width: 36px;
-    height: 36px;
+    width: 52px;
+    height: 52px;
 }
+
+/* .icon:hover {
+    background: url("menu-light.png") no-repeat;
+} */
 
 /* dropdown */
 
-button {
+/* button {
     border: none !important;
     width: 52px;
     height: 52px;
     padding: 0 !important;
-}
+} */
 
-.dropdown {
+/* .dropdown {
     position: relative;
-}
+} */
 
 .dropdown-content {
     display: none;
