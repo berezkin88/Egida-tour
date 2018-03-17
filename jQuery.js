@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
-    $("#hover").hover(function(){
-        $(".dropdown-content").show();
+    $(".hide-big, .icon").hover(function(){
+        $(".dropdown-content").show("slow");
     });
 
 
