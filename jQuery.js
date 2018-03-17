@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $(".icon").hover(function(){
-        $(".dropdown-content").toggle().show();
+        $(".dropdown-content").toggle().show(5);
     });
 
     $(this).on("click", function(){
